@@ -323,7 +323,7 @@ public class Board extends JPanel implements ActionListener{
     			pacmanY > (ghostY[i] -12) && pacmanY < (ghostY[i] +12) &&
     			ingame){
     			
-    			//dying = true;
+    			dying = true;
     			deathCounter++;
     		}
     	}
